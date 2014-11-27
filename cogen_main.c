@@ -12,6 +12,6 @@ int main(int argc, char *argv[])
 	}
 	tokenizer_t t = mk_tokenizer(argv[1]);
 	program_t prog = parse_program(t);
-    cogen_program(stdout, prog);
+    	cogen_program(stdout, prog);
 	return 0;
 }
